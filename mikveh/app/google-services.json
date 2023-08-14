@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "102866818427",
+    "project_id": "mikve-43443",
+    "storage_bucket": "mikve-43443.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102866818427:android:3a64d55f7aeead9209d9de",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102866818427-ehe6sgrm7ki4cnibsh5mnaqq5mnsfj91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOLj6-QnFcbYl6CjBN93ljLsbm9STNR-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102866818427-ehe6sgrm7ki4cnibsh5mnaqq5mnsfj91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

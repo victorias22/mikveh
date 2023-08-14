@@ -1,0 +1,493 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Sign in</string>
+    <string name="email_hint">Enter email</string>
+    <string name="title_text">MIKVEH POINT</string>
+    <string name="greateful_text">Mikveh Finder, find a mikveh near you and order an appointment easily</string>
+    <string name="get_started_text">get started</string>
+    <string name="password_hint">Enter password</string>
+    <string name="or_text">or</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="username_hint">Username</string>
+    <string name="create_text">CREATE ACCOUNT</string>
+    <string name="admin_choose">"Admin "</string>
+    <string name="owner_choose">"Mikveh Owner "</string>
+    <string name="user_choose">"User"</string>
+    <string name="welcome">Welcome!</string>
+    <string name="please_select_mikveh_location">Please select Mikveh location</string>
+    <string name="select">Select</string>
+    <string name="my_profile">My Profile</string>
+    <string name="mikveh_owner">Mikveh Owner</string>
+    <string name="user">User</string>
+    <string name="already_sign_in_click_here">Already sign in? Click here!</string>
+    <string name="actions">ACTIONS</string>
+    <string-array name="times_array">
+        <item>"9:00"</item>
+        <item>"10:00"</item>
+        <item>"11:00"</item>
+        <item>"12:00"</item>
+        <item>"13:00"</item>
+        <item>"14:00"</item>
+        <item>"15:00"</item>
+        <item>"16:00"</item>
+        <item>"17:00"</item>
+    </string-array>
+    <string-array name="cities_array">
+        <item>"אבן יהודה"</item>
+        <item>"אופקים"</item>
+        <item>"אור עקיבא"</item>
+        <item>"אורנית"</item>
+        <item>"אזור"</item>
+        <item>"אילת"</item>
+        <item>"אליכין"</item>
+        <item>"אלפי מנשה"</item>
+        <item>"אלקנה"</item>
+        <item>"אפרת"</item>
+        <item>"אריאל"</item>
+        <item>"אשדוד"</item>
+        <item>"אשקלון"</item>
+        <item>"באר יעקב"</item>
+        <item>"באר שבע"</item>
+        <item>"בית דגן"</item>
+        <item>"בית שאן"</item>
+        <item>"בית שמש"</item>
+        <item>"ביתר"</item>
+        <item>"בני ברק"</item>
+        <item>"בני עייש"</item>
+        <item>"בנימינה"</item>
+        <item>"גיתית"</item>
+        <item>"ורד יריחו"</item>
+        <item>"חמדת"</item>
+        <item>"ייטב"</item>
+        <item>"יפית"</item>
+        <item>"מבואות יריחו"</item>
+        <item>"מחולה"</item>
+        <item>"מעלה אפרים"</item>
+        <item>"משכיות"</item>
+        <item>"נאות הכיכר"</item>
+        <item>"ספיר"</item>
+        <item>"עין בוקק"</item>
+        <item>"שדמות מחולה"</item>
+        <item>"בת ים"</item>
+        <item>"גבעת זאב"</item>
+        <item>"גבעת עדה"</item>
+        <item>"גבעת שמואל"</item>
+        <item>"גבעתיים"</item>
+        <item>"גדרה"</item>
+        <item>"איבי הנחל"</item>
+        <item>"אלון שבות"</item>
+        <item>"אלעזר"</item>
+        <item>"בית עין"</item>
+        <item>"גבעות"</item>
+        <item>"הר גילה"</item>
+        <item>"כפר אלדד"</item>
+        <item>"כפר עציון"</item>
+        <item>"כרמי צור"</item>
+        <item>"מגדל עוז"</item>
+        <item>"מיצד"</item>
+        <item>"מעלה עמוס"</item>
+        <item>"נוה דניאל"</item>
+        <item>"נוקדים"</item>
+        <item>"פני קדם"</item>
+        <item>"קידר"</item>
+        <item>"ראש צורים"</item>
+        <item>"תקוע"</item>
+        <item>"אילניה"</item>
+        <item>"ארבל"</item>
+        <item>"בית רימון"</item>
+        <item>"גבעת אבני"</item>
+        <item>"הודיות"</item>
+        <item>"הזורעים"</item>
+        <item>"כפר זיתים"</item>
+        <item>"לביא"</item>
+        <item>"מסד"</item>
+        <item>"מצפה נטופה"</item>
+        <item>"שדה אילן"</item>
+        <item>"גן יבנה"</item>
+        <item>"גני תקוה"</item>
+        <item>"דימונה"</item>
+        <item>"הוד השרון"</item>
+        <item>"אביגיל"</item>
+        <item>"אדורה"</item>
+        <item>"אשכולות"</item>
+        <item>"בית חג"י"</item>
+        <item>"בית יתי"ר"</item>
+        <item>"חירן"</item>
+        <item>"כרמל"</item>
+        <item>"ליבנה"</item>
+        <item>"מעון"</item>
+        <item>"מעלה חבר"</item>
+        <item>"מצפה יאיר"</item>
+        <item>"נגוהות"</item>
+        <item>"סוסיא"</item>
+        <item>"סנסנה"</item>
+        <item>"עומרים"</item>
+        <item>"אשלים"</item>
+        <item>"עשהאל"</item>
+        <item>"עתניאל"</item>
+        <item>"שמעה"</item>
+        <item>"תלם"</item>
+        <item>"הרצליה"</item>
+        <item>"זכרון יעקב"</item>
+        <item>ֱבית גמליאל"</item>
+        <item>"בן זכאי"</item>
+        <item>"בני דרום"</item>
+        <item>"גבעת וושינגטון"</item>
+        <item>"כרם ביבנה"</item>
+        <item>"ניר גלים"</item>
+        <item>"קבוצת יבנה"</item>
+        <item>"אחיסמך"</item>
+        <item>"בארות יצחק"</item>
+        <item>"בית נחמיה"</item>
+        <item>"ברקת"</item>
+        <item>"גבעת כח"</item>
+        <item>"גמזו"</item>
+        <item>"חדיד"</item>
+        <item>"טירת יהודה"</item>
+        <item>"כפר טורמן"</item>
+        <item>"מבוא מודעים"</item>
+        <item>"נחלים"</item>
+        <item>"רינתיה"</item>
+        <item>"חדרה"</item>
+        <item>"חולון"</item>
+        <item>"חיפה"</item>
+        <item>"חצור"</item>
+        <item>"טבריה"</item>
+        <item>"טירת הכרמל"</item>
+        <item>"יבניאל"</item>
+        <item>"יבנה"</item>
+        <item>"יהוד-נוה מונסון"</item>
+        <item>"יקנעם"</item>
+        <item>"ירוחם"</item>
+        <item>"ירושלים"</item>
+        <item>"כוכב יאיר"</item>
+        <item>"צור יגאל"</item>
+        <item>"פוריה"</item>
+        <item>"כפר יונה"</item>
+        <item>"כפר סבא"</item>
+        <item>"כפר פינס"</item>
+        <item>"מאור"</item>
+        <item>"מצפה אילן"</item>
+        <item>"קציר"</item>
+        <item>"כפר תבור"</item>
+        <item>"כרמיאל"</item>
+        <item>"לוד"</item>
+        <item>"מושב אחוזם"</item>
+        <item>"מושב אליאב"</item>
+        <item>"מושב אמציה"</item>
+        <item>"מושב בני דקלים"</item>
+        <item>"מושב זוהר"</item>
+        <item>"מושב יד נתן"</item>
+        <item>"מושב מנוחה"</item>
+        <item>"מושב נהורה"</item>
+        <item>"מושב נוגה"</item>
+        <item>"מושב נטע"</item>
+        <item>"מושב ניר ח"ן"</item>
+        <item>"מושב עוצם"</item>
+        <item>"מושב שדה דוד"</item>
+        <item>"מושב שחר"</item>
+        <item>"מושב שקף"</item>
+        <item>"מושב תלמים"</item>
+        <item>"מבשרת ציון"</item>
+        <item>"מגדל"</item>
+        <item>"מגדל העמק"</item>
+        <item>"מזכרת בתיה"</item>
+        <item>"אדם"</item>
+        <item>"אחיה"</item>
+        <item>"אלון"</item>
+        <item>"אש קודש"</item>
+        <item>"בית אריה"</item>
+        <item>"בית חורון"</item>
+        <item>"גבעת אסף"</item>
+        <item>"גבעת הראל"</item>
+        <item>"גבעת הרואה"</item>
+        <item>"גני מודיעין"</item>
+        <item>"דולב"</item>
+        <item>"חדשה"</item>
+        <item>"טלמון"</item>
+        <item>"כוכב השחר"</item>
+        <item>"כוכב יעקב"</item>
+        <item>"כפר אדומים"</item>
+        <item>"כרם רעים"</item>
+        <item>"מבוא חורון"</item>
+        <item>"מגרון"</item>
+        <item>"מכמש"</item>
+        <item>"מעלה לבונה"</item>
+        <item>"מצפה יריחו"</item>
+        <item>"מתתיהו"</item>
+        <item>"נווה צוף"</item>
+        <item>"נופי פרת"</item>
+        <item>"נחליאל"</item>
+        <item>"נריה"</item>
+        <item>"עדי עד"</item>
+        <item>"עופרים"</item>
+        <item>"עטרת"</item>
+        <item>"עלי"</item>
+        <item>"עפרה"</item>
+        <item>"פסגות"</item>
+        <item>"קידה"</item>
+        <item>"רימונים"</item>
+        <item>"רמת מודיעין"</item>
+        <item>"שבות רחל"</item>
+        <item>"שילה"</item>
+        <item>"תל ציון"</item>
+        <item>"מטולה"</item>
+        <item>"מיתר"</item>
+        <item>"מעלה אדומים"</item>
+        <item>"אבן מנחם"</item>
+        <item>"אלקוש"</item>
+        <item>"גורן"</item>
+        <item>"גרנות"</item>
+        <item>"זרעית"</item>
+        <item>"חוסן"</item>
+        <item>"יערה"</item>
+        <item>"לפידות"</item>
+        <item>"מנות"</item>
+        <item>"נטועה"</item>
+        <item>"עבדון"</item>
+        <item>"עין יעקב"</item>
+        <item>"פקיעין"</item>
+        <item>"צוריאל"</item>
+        <item>"שומרה"</item>
+        <item>"שתולה"</item>
+        <item>"מעלות"</item>
+        <item>"מצפה רמון"</item>
+        <item>"אביבים"</item>
+        <item>"אור הגנוז"</item>
+        <item>"אביבים"</item>
+        <item>"אור הגנוז"</item>
+        <item>"אמירים"</item>
+        <item>"ביריר"</item>
+        <item>"בר יוחאי"</item>
+        <item>"דובב"</item>
+        <item>"דלתון"</item>
+        <item>"חזון"</item>
+        <item>"טפחות"</item>
+        <item>"כ.ב.ז"</item>
+        <item>"כלנית"</item>
+        <item>"כפר שמאי"</item>
+        <item>"לבנים"</item>
+        <item>"מירון"</item>
+        <item>"ספסופה"</item>
+        <item>"עלמה"</item>
+        <item>"שזור"</item>
+        <item>"שפר"</item>
+        <item>"אשבול"</item>
+        <item>"בטחה"</item>
+        <item>"גילת"</item>
+        <item>"מבועים"</item>
+        <item>"מסלול"</item>
+        <item>"ניר משה"</item>
+        <item>"ניר עקיבא"</item>
+        <item>"פדויים"</item>
+        <item>"פטיש"</item>
+        <item>"פעמי תש"ז"</item>
+        <item>"קלחים"</item>
+        <item>"שדה צבי"</item>
+        <item>"תפרח"</item>
+        <item>"נהריה"</item>
+        <item>"נס ציונה"</item>
+        <item>"נצרת עילית"</item>
+        <item>"נשר"</item>
+        <item>"נתיבות"</item>
+        <item>"נתניה"</item>
+        <item>"סביון"</item>
+        <item>"עכו"</item>
+        <item>"עמנואל"</item>
+        <item>"מושב בית יוסף"</item>
+        <item>"מושב ירדנה"</item>
+        <item>"מושב רויה"</item>
+        <item>"מושב רחוב"</item>
+        <item>"מושב שדי תרומות"</item>
+        <item>"מושב מנחמיה"</item>
+        <item>"קב' טירת צבי"</item>
+        <item>"קב' מירב"</item>
+        <item>"קב' מעלה גלבוע"</item>
+        <item>"קב' עין הנצי"ב"</item>
+        <item>"קב' שדה אליהו"</item>
+        <item>"קב' שלוחות"</item>
+        <item>"תל תאומים"</item>
+        <item>"אחיטוב"</item>
+        <item>"אלישיב"</item>
+        <item>"בית חפר"</item>
+        <item>"גאולי תימן"</item>
+        <item>"חבצלת השרון"</item>
+        <item>"כפר הרא"ה"</item>
+        <item>"עולש"</item>
+        <item>"הושעיה"</item>
+        <item>"כפר גדעון"</item>
+        <item>"שדה יעקב"</item>
+        <item>"תל עדשים"</item>
+        <item>"זיתן"</item>
+        <item>"אחיעזר"</item>
+        <item>"חמד"</item>
+        <item>"יגל"</item>
+        <item>"כפר חב"ד"</item>
+        <item>"צפריה"</item>
+        <item>"עפולה"</item>
+        <item>"ערד"</item>
+        <item>"עתלית"</item>
+        <item>"פרדס חנה כרכור"</item>
+        <item>"פרדסיה"</item>
+        <item>"פתח תקוה"</item>
+        <item>"צפת"</item>
+        <item>"גבעת שלם"</item>
+        <item>"מצפה ישי"</item>
+        <item>"קדומים דרום"</item>
+        <item>"קדומים צפון"</item>
+        <item>"קדימה"</item>
+        <item>"קצרין"</item>
+        <item>"קרית אונו"</item>
+        <item>"חברון"</item>
+        <item>"קרית ארבע חברון"</item>
+        <item>"קרית אתא"</item>
+        <item>"קרית ביאליק"</item>
+        <item>"קרית גת"</item>
+        <item>"קרית טבעון"</item>
+        <item>"קרת ים"</item>
+        <item>"טלז - סטון"</item>
+        <item>"קרית מוצקין"</item>
+        <item>"קרית מלאכי"</item>
+        <item>"קרית עקרון"</item>
+        <item>"קרית שמונה"</item>
+        <item>"קרני שומרון"</item>
+        <item>"ראש העין"</item>
+        <item>"ראש פינה"</item>
+        <item>"ראשון לציון"</item>
+        <item>"רחובות"</item>
+        <item>"רכסים"</item>
+        <item>"רמלה"</item>
+        <item>"רמת גן"</item>
+        <item>"אבני איתן"</item>
+        <item>"אלוני הבשן"</item>
+        <item>"בני יהודה"</item>
+        <item>"חד נס"</item>
+        <item>"חיספין"</item>
+        <item>"יונתן"</item>
+        <item>"נוב"</item>
+        <item>"נטור"</item>
+        <item>"קשת"</item>
+        <item>"רמת המגשימים"</item>
+        <item>"רמת השרון"</item>
+        <item>"רמת ישי"</item>
+        <item>"עננה"</item>
+        <item>"בית הגדי"</item>
+        <item>"גבעולים"</item>
+        <item>"זמרת"</item>
+        <item>"זרועה"</item>
+        <item>"יושיביה"</item>
+        <item>"כפר מימון"</item>
+        <item>"מעגלים"</item>
+        <item>"סעד"</item>
+        <item>"עלומים"</item>
+        <item>"שובה"</item>
+        <item>"שוקדה"</item>
+        <item>"שיבולים"</item>
+        <item>"שרשרת"</item>
+        <item>"תושיה"</item>
+        <item>"תקומה"</item>
+        <item>"שדרות"</item>
+        <item>"אבני חפץ"</item>
+        <item>"איתמר"</item>
+        <item>"אלון מורה"</item>
+        <item>"ברוכין"</item>
+        <item>"ברקן"</item>
+        <item>"הר ברכה"</item>
+        <item>"חרמש"</item>
+        <item>"טל מנשה"</item>
+        <item>"יצהר"</item>
+        <item>"יקיר"</item>
+        <item>"לשם"</item>
+        <item>"מבוא דותן"</item>
+        <item>"מגדלים"</item>
+        <item>"מעלה שומרון"</item>
+        <item>"נופי נחמיה"</item>
+        <item>"נופים"</item>
+        <item>"עינב"</item>
+        <item>"עלי זהב"</item>
+        <item>"עץ אפרים"</item>
+        <item>"פדואל"</item>
+        <item>"צופים"</item>
+        <item>"קרית נטפים"</item>
+        <item>"רבבה"</item>
+        <item>"רחלים"</item>
+        <item>"שבי שומרון"</item>
+        <item>"שערי תקווה"</item>
+        <item>"שקד"</item>
+        <item>"תפוח"</item>
+        <item>"שלומי"</item>
+        <item>"אבן שמואל"</item>
+        <item>"אחוזת אתרוג"</item>
+        <item>"אלומה"</item>
+        <item>"מושב איתן"</item>
+        <item>"מושב זבדיאל"</item>
+        <item>"מושב זרחיה"</item>
+        <item>"מושב נועם"</item>
+        <item>"מושב עוזה"</item>
+        <item>"מושב קוממיות"</item>
+        <item>"מושב רווחה"</item>
+        <item>"מושב שלוה"</item>
+        <item>"מושב שפיר"</item>
+        <item>"מרכז שפירא"</item>
+        <item>"משואות יצחק"</item>
+        <item>"קיבוץ עין צורים"</item>
+        <item>"תל אביב"</item>
+        <item>"תל מונד"</item>
+    </string-array>
+    <string name="title_activity_user_menu">UserMenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="profile">Profile</string>
+    <string name="my_appoitments">My Appointments</string>
+    <string name="logout">Logout</string>
+    <string name="menu">Menu</string>
+    <string name="manage_app_users">Manage App Users</string>
+    <string name="upcoming_appoitments">Upcoming appoitments</string>
+    <string name="settings">Settings</string>
+    <string name="user_name">User name:</string>
+    <string name="profile_type">Profile type:</string>
+    <string name="email">Email:</string>
+    <string name="save">Save</string>
+    <string name="phone">Phone</string>
+    <string name="your_email_address">Your Email Address</string>
+    <string name="user_name_txt">User Name</string>
+    <string name="email_txt">Email</string>
+    <string name="date">Date</string>
+    <string name="name">Name</string>
+    <string name="time">Time</string>
+    <string name="todo">TODO</string>
+    <string name="New_appointments">New appointment</string>
+    <string name="choose_date">choose date</string>
+    <string name="choose_time">chosse time</string>
+    <string name="create_appoitment">Create Appoitment</string>
+    <string name="back">BACK</string>
+    <string name="button">Button</string>
+    <string name="show_my_upcoming_meetings">Show My Upcoming Meetings</string>
+    <string name="create_new_meeting">Create new meeting</string>
+    <string name="close">Close</string>
+    <string name="my_mikveh_list">My Mikveh List</string>
+    <string name="add_mikveh">Add Mikveh</string>
+    <string name="delete">DELETE</string>
+    <string name="update">UPDATE</string>
+    <string name="schedule_appointment">Schedule Appointment</string>
+    <string name="goback">GoBack</string>
+    <string name="contact_us">Contact Us</string>
+
+</resources>

@@ -1,0 +1,59 @@
+pipeline {
+    agent {
+        docker {
+            image 'androidsdk/android-31'
+        }
+    }
+    
+     options {
+    // Stop the build early in case of compile or test failures
+        skipStagesAfterUnstable()
+    }
+    
+    stages {
+        stage('Build') {
+            steps {
+                sh 'chmod +x gradlew && ./gradlew --no-daemon --stacktrace clean'                
+            }
+        }
+        
+        /* Unit tests */
+        stage('Test') {
+                steps {      
+                    sh './gradlew test'
+                    junit '**/build/test-results/**/TEST-*.xml'
+                 } 
+        }
+        
+        /* Build the apk file */
+         stage('Build APK') {
+            steps {
+                sh './gradlew assembleDebug'
+            }
+        }
+        
+        /*Download the apk file */
+        stage('Download APK') {
+            steps {
+                println "https://firebasestorage.googleapis.com/v0/b/mikve-43443.appspot.com/o/app-debug.apk?alt=media&token=8cc58e51-7d05-4bf6-ba35-b30959e9eb1b"      
+            }
+        }
+        
+    }
+    post {
+        always {
+          step([$class: 'Mailer',
+            notifyEveryUnstableBuild: true,
+            recipients: "victoso@ac.sce.ac.il",
+            sendToIndividuals: true])
+        }
+    }
+}
+/////
+
+    	   
+
+
+
+
+    	   

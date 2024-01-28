@@ -1,0 +1,54 @@
+package com.example.adf;
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.List;
+public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostviewHolder> {
+    List<Post> postList;
+    Context context;
+
+    public PostAdapter(List<Post> postList, Context context) {
+        this.postList = postList;
+        this.context = context;
+    }
+
+     @NonNull
+    @Override
+    public PostviewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+         View view = LayoutInflater.from(context).inflate(R.layout.item ,parent,false );
+         return new PostviewHolder(view);
+    }
+    @NonNull
+    @Override
+    public void onBindViewHolder(@NonNull PostviewHolder holder, int position) {
+
+        Post post = postList.get(position);
+        holder.id.setText("id:"+ post.getId());
+        holder.userId.setText("user id:" +post.getUserId());
+        holder.title.setText("title:"+post.getTitle());
+        holder.body.setText("body"+post.getBody());
+    }
+
+    @Override
+    public int getItemCount() {
+        return postList.size() ;
+    }
+
+    public static class PostviewHolder extends RecyclerView.ViewHolder{
+        TextView title , id ,userId , body;
+        public PostviewHolder(@NonNull View itemView) {
+            super(itemView);
+            title = itemView.findViewById(R.id.textView);
+            userId= itemView.findViewById(R.id.textView2);
+            body = itemView.findViewById(R.id.textView3);
+            id = itemView.findViewById(R.id.textView4);
+
+        }
+    }
+}

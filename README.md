@@ -1,27 +1,26 @@
+🛠️ Technology Stack
+Technology	Description
+Java + Android SDK	Core application logic written in Java, leveraging the Android Framework for UI and OS integration
+Gradle	Build system for dependency management, versioning, and modular execution
+Firebase	Utilized for release distribution via App Distribution and Google Services integration
+Jenkins	CI/CD pipeline for automated build, testing, and APK generation
+JUnit	Framework for unit and instrumentation testing (e.g., MikvehTest.java)
+ProGuard	Code obfuscation and optimization for secure release builds
+ViewBinding	Type-safe view access, replacing findViewById to reduce boilerplate and runtime errors
+▶️ Build & Run Instructions
 
----
+Ensure that Android Studio and Gradle are properly installed.
 
-## 🛠️ טכנולוגיו
-| טכנולוגיה       | תיאור |
-|------------------|--------|
-| **Java** + Android SDK | קוד האפליקציה נכתב בשפת Java, מבוסס על Android Framework |
-| **Gradle**       | ניהול בנייה, תלות, הרצה וחלוקה בין גרסאות |
-| **Firebase**     | הפצת גרסאות דרך `appDistribution`, שימוש ב־`google-services` |
-| **Jenkins**      | Pipeline אוטומטי לבנייה, בדיקות ו־APK |
-| **JUnit**        | בדיקות יחידה ו־Instrumentation (`MikvehTest.java`) |
-| **ProGuard**     | הקטנת קוד והגנה בגרסאות Release |
-| **ViewBinding**  | גישה בטוחה ל־View-ים במקום `findViewById` |
+To open the project:
 
----
+Launch Android Studio and open the root project directory.
 
-## ▶️ איך לבנות ולהריץ
+To build the project:
 
-1. ודא ש־Android Studio ו־Gradle מותקנים.
-2. פתח את הפרויקט דרך Android Studio.
-3. לבנייה:
-   ```bash
-   ./gradlew assembleDebug
+./gradlew assembleDebug
 
+
+This setup ensures a clean development pipeline, secure deployment, and maintainable code structure across releases.
 
 
 ![1](https://github.com/victorias22/ptoject/assets/142221447/2ea7acf0-d757-48c2-9382-f4170d570f26)
